@@ -49,3 +49,44 @@ body {
   background-size: cover;
   margin: 0 auto;
 }
+
+.social-link {
+  width: 100%;
+  position: relative;
+}
+
+.row {
+  margin: 0;
+}
+
+.bottom-row {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  width: 100%;
+}
+
+.photo a {
+  font-family: Lato;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+  opacity: 0.5;
+}
+
+.photo a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.bottom-name {
+  background: url(../img/name.png) center no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  float: right;
+  width: 110px;
+  height: 8px;
+  margin-top: 12px;
+}
