@@ -93,6 +93,7 @@ body {
   font-size: 10px;
   opacity: 0.5;
   float: right;
+  text-align: right;
 }
 
 .photo a:hover {
